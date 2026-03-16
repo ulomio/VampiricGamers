@@ -1,8 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Clips</title>
+<title>Game Clips</title>
+
+<style>
+
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background:#0f0f14;
+color:white;
+}
+
+nav{
+background:#1b1b24;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:#bbb;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff2a6d;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+h1{
+text-align:center;
+color:#ff2a6d;
+}
+
+.card{
+background:#1b1b24;
+padding:25px;
+margin:30px 0;
+border-radius:10px;
+}
+
+video{
+width:100%;
+border-radius:10px;
+margin-top:15px;
+}
+
+</style>
 </head>
 
 <body>
@@ -14,13 +65,31 @@
 <a href="fashion.html">Game Fashion</a>
 </nav>
 
-<h1>My clips</h1>
+<div class="container">
 
-<h2>Overwatch</h2>
-<p>Grinding matches and collecting clips.</p>
+<h1>Game Clips</h1>
 
-<h2>Warframe</h2>
-<p>Still one of my favorites.</p>
+<div class="card">
+<h2>Overwatch Clip</h2>
+<p>Nice play I got in a match.</p>
+
+<video controls>
+<source src="clip1.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div class="card">
+<h2>Warframe Clip</h2>
+<p>Just messing around in missions.</p>
+
+<video controls>
+<source src="clip2.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
 
 </body>
 </html>
