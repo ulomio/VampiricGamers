@@ -26,7 +26,7 @@ font-weight:bold;
 }
 
 nav a:hover{
-color:#ff2a6d;
+color:#b30018;
 }
 
 .container{
@@ -35,9 +35,13 @@ margin:auto;
 padding:40px 20px;
 }
 
-h1{
-text-align:center;
-color:#ff2a6d;
+.hero h1{
+font-size:48px;
+color:#b30018;
+text-shadow:
+0 0 5px #b30018,
+0 0 10px #b30018,
+0 0 20px #660000;
 }
 
 .card{
@@ -45,6 +49,14 @@ background:#1b1b24;
 padding:25px;
 margin:30px 0;
 border-radius:10px;
+}
+
+.card:hover{
+box-shadow:
+0 0 10px #b30018,
+0 0 20px #660000;
+transform: scale(1.02);
+transition: 0.2s;
 }
 
 video{
